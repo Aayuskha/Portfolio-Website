@@ -26,6 +26,7 @@ menuBtn.onclick = function(){
   body.style.overflow = "hidden";
   scrollBtn.style.pointerEvents = "none";
 }
+
 cancelBtn.onclick = function(){
   navBar.classList.remove("active");
   menuBtn.style.opacity = "1";
